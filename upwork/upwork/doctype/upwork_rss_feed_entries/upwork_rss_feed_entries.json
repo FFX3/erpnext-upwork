@@ -22,10 +22,9 @@
   },
   {
    "fieldname": "url",
-   "fieldtype": "Read Only",
+   "fieldtype": "Text",
    "label": "Url",
-   "read_only": 1,
-   "unique": 1
+   "read_only": 1
   },
   {
    "allow_in_quick_entry": 1,
@@ -51,7 +50,7 @@
  "in_create": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-11 13:57:45.506702",
+ "modified": "2024-06-12 15:25:08.642077",
  "modified_by": "Administrator",
  "module": "Upwork",
  "name": "Upwork RSS Feed Entries",
