@@ -4,6 +4,13 @@ app_publisher = "Justin McIntyre"
 app_description = "Intergrate upwork leads & projects with ERPNext"
 app_email = "justinmcintyre42@gmail.com"
 app_license = "lgpl-2.1"
+
+scheduler_events = {
+    "hourly": [
+        "upwork.upwork.poll_rss_feeds.run"
+    ],
+}
+
 # required_apps = []
 
 # Includes in <head>
